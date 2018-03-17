@@ -2,9 +2,8 @@
 	border: solid 2px red;
 }
 body {
-    background-color: #f1f1f1;
+	background-color: #f1f1f1;
 }
-
 .logo img {
 	margin: 5px 0;
 	width: 90px;
@@ -22,6 +21,7 @@ header {
 .container-overlay {
 	margin-top: 10px;
 	position: relative;
+	width: 100%;
 }
 .image {
 	opacity: 1;
@@ -30,6 +30,7 @@ header {
 	height: auto;
 	transition: .5s ease;
 	backface-visibility: hidden;
+	margin: 0 auto;
 }
 .middle {
 	transition: .5s ease;
@@ -59,14 +60,26 @@ header {
 	margin: 10px 0 0 5px;
 }
 .content {
-    background-color: white;
-    padding: 10px;
+	background-color: white;
+	padding: 10px;
 }
 .content img:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 .projects {
 	text-align: center;
+}
+.list-inline {
+	position: absolute;
+	right: 0;
+}
+.list-inline li a img {
+	margin: 5px;
+	max-height: 20px;
+}
+.list-inline li a:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
 }
 @media screen and (max-width: 549px) {
 	.logo img {

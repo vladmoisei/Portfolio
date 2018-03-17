@@ -20,7 +20,7 @@
 		<header class="row">
 			<!-- logo -->
 			<div class="logo col-4 align-self-center">
-				<img src="img/udacity.svg" alt="Udacity logo">
+				<a href="https://eu.udacity.com/"><img src="img/udacity.svg" alt="Udacity logo"></a>
 			</div>
 			<!-- title name -->
 			<div class="name col-8 text-right text-uppercase page-header">
@@ -33,34 +33,37 @@
 			<!-- hero image -->
 			<section class="row">
 				<div class="container-overlay">
-					<img class="image" src="img/luke-chesser-2347-unsplash.jpg" alt="Programming image">
+					<picture>
+						<source media="(max-width: 760px)" srcset="img/luke-chesser-2347-unsplash_small.jpg">
+						<img class="image" src="img/luke-chesser-2347-unsplash_large.jpg" alt="Programming image">
+					</picture>
 					<div class="middle">
 						<div class="text-title">Hello, I'm Vlad.</div>
 						<div class="text"> My passion is programming!</div>
 					</div>
 				</div>
 			</section>
-			<!-- Cards' section -->
+				<!-- Cards' section -->
 			<section class="row projects">
 				<h2 class="text-muted">Featured work</h2>
 				<div class="row container-cards">
 					<div class="col-sm-4">
 						<div class="content">
-							<a href="https://vladmoisei.github.io/AnimalCard/"><img class="img-thumbnail" src="img/luke-chesser-2347-unsplash.jpg" alt="Mountains"></a>
+							<a href="https://vladmoisei.github.io/AnimalCard/"><img class="img-thumbnail" src="img/Sara_Jessie.jpg" alt="Mountains"></a>
 							<h3>Animal trading card</h3>
 							<p>These are my little cute doggies</p>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="content">
-							<a href="https://vladmoisei.github.io/TheBrightonTimesResponsive/"><img class="img-thumbnail" src="img/luke-chesser-2347-unsplash.jpg" alt="Mountains"></a>
+							<a href="https://vladmoisei.github.io/TheBrightonTimesResponsive/"><img class="img-thumbnail" src="img/TheBrightonTimesResponsive.jpg" alt="Mountains"></a>
 							<h3>The Brighton Times Responsive</h3>
 							<p>I made this responsive website only with css</p>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="content">
-							<img class="img-thumbnail" src="img/luke-chesser-2347-unsplash.jpg" alt="Mountains">
+							<a href="#"><img class="img-thumbnail" src="img/scott-webb-500230-unsplash_640x.jpg" alt="Mountains"></a>
 							<h3>Pixel Art Maker</h3>
 							<p>This I will make in future with JavaScript</p>
 						</div>
@@ -70,8 +73,19 @@
 		</main>
 		<!-- footer -->
 		<footer>
-			© Right reserved
-			<p>Contact: vladmoisei@yahoo.com</p>
+			<div class="row">
+				<p>© Right reserved</p>
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="mailto:vladmoisei@yahoo.com?Subject=Hello%20again" target="_top"><img class="img-float" src="img/yahoo.svg" alt="Yahoo logo"></a>
+					</li>
+					<li class="list-inline-item"><a href="https://www.linkedin.com/in/vlad-moisei-a2299a35/" target="_top"><img class="img-float" src="img/linkedin-icon.svg" alt="LinkedIn logo"></a>
+					</li>
+					<li class="list-inline-item"><a href="https://www.facebook.com/vladmoisei" target="_top"><img class="img-float" src="img/facebook-2.svg" alt="Facebook logo"></a>
+					</li>
+					<li class="list-inline-item"><a href="https://github.com/vladmoisei" target="_top"><img class="img-float" src="img/github-icon-1.svg" alt="Github logo"></a>
+					</li>
+				</ul>
+			</div>
 		</footer>
 	</div>
 </body>
