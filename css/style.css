@@ -7,6 +7,10 @@ body {
 .logo img {
 	margin: 5px 0;
 	width: 90px;
+	padding: 5px 0;
+}
+.name {
+	padding: 5px 0;
 }
 .name h1 {
 	font-family: Inconsolata;
@@ -39,7 +43,10 @@ header {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 	text-align: center;
 }
 .container-overlay:hover .image {
@@ -58,10 +65,14 @@ header {
 }
 .row h2 {
 	margin: 10px 0 0 5px;
+	padding: 5px;
 }
 .content {
 	background-color: white;
 	padding: 10px;
+}
+.img-wrap {
+	overflow: hidden;
 }
 .content img:hover {
 	transform: scale(1.1);
