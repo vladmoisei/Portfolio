@@ -7,3 +7,4 @@
 [Bootstrap](https://getbootstrap.com/)
 [Google Fonts](https://fonts.google.com/)
 [SVG Images](https://worldvectorlogo.com/)
+[w3school](https://www.w3schools.com/default.asp)
