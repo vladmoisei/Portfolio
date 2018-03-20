@@ -126,3 +126,15 @@ header {
 		font-size: 35px;
 	}
 }
+@media screen and (min-width: 550px) {
+	.container-cards {
+	display: flex;
+    justify-content: space-around;
+    width: 100%;
+    }
+.content {
+	max-width: 32%;
+    justify-content: space-between;
+    flex: 1;
+    }
+}
